@@ -4,7 +4,8 @@ pub fn search_min(
     delta: f64,
     mut a: f64,
     mut b: f64
-) -> f64 {
+) -> f64
+{
     eps /= 2.0;
 
     while b - a >= delta {
